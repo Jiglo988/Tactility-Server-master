@@ -1,0 +1,6 @@
+msg currency = $name$ is not allowed because it is a currency!
+msg honor = $name$ is not allowed because it is only available at honor point shop!
+msg default = $name$ is not allowed in the Grand Exchange!
+
+entry-id 5020, 995 = currency
+entry-id 14744, 14747 = default

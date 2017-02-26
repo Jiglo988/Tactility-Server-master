@@ -1,0 +1,115 @@
+<!-- Herbloring XML configuration file -->
+
+<list>
+    <!-- Unfinished Guam -->
+    <unfinPotion>
+        <herb>249</herb>
+        <potion>91</potion>
+        <potionLevel>1</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Marrentill -->
+    <unfinPotion>
+        <herb>251</herb>
+        <potion>93</potion>
+        <potionLevel>5</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Tarromin -->
+    <unfinPotion>
+        <herb>253</herb>
+        <potion>95</potion>
+        <potionLevel>11</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Harralander -->
+    <unfinPotion>
+        <herb>255</herb>
+        <potion>97</potion>
+        <potionLevel>20</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Ranarr -->
+    <unfinPotion>
+        <herb>257</herb>
+        <potion>99</potion>
+        <potionLevel>25</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Irit Leaf -->
+    <unfinPotion>
+        <herb>259</herb>
+        <potion>101</potion>
+        <potionLevel>40</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Avantoe -->
+    <unfinPotion>
+        <herb>261</herb>
+        <potion>103</potion>
+        <potionLevel>48</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Kwuarm -->
+    <unfinPotion>
+        <herb>263</herb>
+        <potion>105</potion>
+        <potionLevel>54</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Cadantine -->
+    <unfinPotion>
+        <herb>265</herb>
+        <potion>107</potion>
+        <potionLevel>65</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Dwarf Weed -->
+    <unfinPotion>
+        <herb>267</herb>
+        <potion>109</potion>
+        <potionLevel>70</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Torstol -->
+    <unfinPotion>
+        <herb>269</herb>
+        <potion>111</potion>
+        <potionLevel>75</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Snap dragon -->
+    <unfinPotion>
+        <herb>3000</herb>
+        <potion>3004</potion>
+        <potionLevel>59</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Toadflax -->
+    <unfinPotion>
+        <herb>2998</herb>
+        <potion>3002</potion>
+        <potionLevel>30</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+
+    <!-- Unfinished Lantadmye -->
+    <unfinPotion>
+        <herb>2481</herb>
+        <potion>2483</potion>
+        <potionLevel>67</potionLevel>
+        <potionExp>0</potionExp>
+    </unfinPotion>
+</list>

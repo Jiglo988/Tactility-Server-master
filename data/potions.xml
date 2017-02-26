@@ -1,0 +1,411 @@
+<!-- Herbloring XML configuration file -->
+
+<list>
+    <!-- Guam -->
+    <potion>
+        <potionId>91</potionId>
+        <secondItem>
+            <int>221</int>
+        </secondItem>
+        <finishedPotion>
+            <int>121</int>
+        </finishedPotion>
+        <level>
+            <int>1</int>
+        </level>
+        <experience>
+            <int>25</int>
+        </experience>
+    </potion>
+
+    <!-- Marentill -->
+    <potion>
+        <potionId>93</potionId>
+        <secondItem>
+            <int>235</int>
+        </secondItem>
+        <finishedPotion>
+            <int>175</int>
+        </finishedPotion>
+        <level>
+            <int>5</int>
+        </level>
+        <experience>
+            <int>37</int>
+        </experience>
+    </potion>
+
+    <!-- Tarromin -->
+    <potion>
+        <potionId>95</potionId>
+        <secondItem>
+            <int>225</int>
+        </secondItem>
+        <finishedPotion>
+            <int>115</int>
+        </finishedPotion>
+        <level>
+            <int>12</int>
+        </level>
+        <experience>
+            <int>50</int>
+        </experience>
+    </potion>
+
+    <!-- Harralander -->
+    <potion>
+        <potionId>97</potionId>
+        <secondItem>
+            <int>223</int>
+            <int>1975</int>
+            <int>9736</int>
+        </secondItem>
+        <finishedPotion>
+            <int>127</int>
+            <int>3010</int>
+            <int>9741</int>
+        </finishedPotion>
+        <level>
+            <int>22</int>
+            <int>26</int>
+            <int>38</int>
+        </level>
+        <experience>
+            <int>62</int>
+            <int>67</int>
+            <int>84</int>
+        </experience>
+    </potion>
+
+    <!-- Ranarr potion -->
+    <potion>
+        <potionId>99</potionId>
+        <secondItem>
+            <int>239</int>
+            <int>231</int>
+
+        </secondItem>
+        <finishedPotion>
+            <int>133</int>
+            <int>139</int>
+        </finishedPotion>
+        <level>
+            <int>30</int>
+            <int>38</int>
+        </level>
+        <experience>
+            <int>75</int>
+            <int>87</int>
+        </experience>
+    </potion>
+
+    <!-- Irit Leaf potion -->
+    <potion>
+        <potionId>101</potionId>
+        <secondItem>
+            <int>221</int>
+            <int>235</int>
+        </secondItem>
+        <finishedPotion>
+            <int>145</int>
+            <int>181</int>
+        </finishedPotion>
+        <level>
+            <int>45</int>
+            <int>48</int>
+        </level>
+        <experience>
+            <int>100</int>
+            <int>107</int>
+        </experience>
+    </potion>
+
+    <!-- Avantoe potion -->
+    <potion>
+        <potionId>103</potionId>
+        <secondItem>
+            <int>231</int>
+            <int>2970</int>
+        </secondItem>
+        <finishedPotion>
+            <int>151</int>
+            <int>3018</int>
+        </finishedPotion>
+        <level>
+            <int>50</int>
+            <int>52</int>
+        </level>
+        <experience>
+            <int>112</int>
+            <int>117</int>
+        </experience>
+    </potion>
+
+    <!-- Kwuarm potion -->
+    <potion>
+        <potionId>105</potionId>
+        <secondItem>
+            <int>225</int>
+            <int>241</int>
+        </secondItem>
+        <finishedPotion>
+            <int>157</int>
+            <int>187</int>
+        </finishedPotion>
+        <level>
+            <int>55</int>
+            <int>60</int>
+        </level>
+        <experience>
+            <int>125</int>
+            <int>137</int>
+        </experience>
+    </potion>
+
+    <!-- Snap dragon potion -->
+    <potion>
+        <potionId>3004</potionId>
+        <secondItem>
+            <int>223</int>
+        </secondItem>
+        <finishedPotion>
+            <int>3026</int>
+        </finishedPotion>
+        <level>
+            <int>63</int>
+        </level>
+        <experience>
+            <int>142</int>
+        </experience>
+    </potion>
+
+    <!-- Toadflax potion -->
+    <potion>
+        <potionId>3002</potionId>
+        <secondItem>
+            <int>2152</int>
+            <int>6693</int>
+        </secondItem>
+        <finishedPotion>
+            <int>3034</int>
+            <int>6687</int>
+        </finishedPotion>
+        <level>
+            <int>34</int>
+            <int>81</int>
+        </level>
+        <experience>
+            <int>80</int>
+            <int>180</int>
+        </experience>
+    </potion>
+
+    <!-- Cadantine potion -->
+    <potion>
+        <potionId>107</potionId>
+        <secondItem>
+            <int>239</int>
+        </secondItem>
+        <finishedPotion>
+            <int>163</int>
+        </finishedPotion>
+        <level>
+            <int>66</int>
+        </level>
+        <experience>
+            <int>150</int>
+        </experience>
+    </potion>
+
+    <!-- Lantadyme potion -->
+    <potion>
+        <potionId>2483</potionId>
+        <secondItem>
+            <int>241</int>
+            <int>3138</int>
+        </secondItem>
+        <finishedPotion>
+            <int>2454</int>
+            <int>3042</int>
+        </finishedPotion>
+        <level>
+            <int>69</int>
+            <int>76</int>
+        </level>
+        <experience>
+            <int>157</int>
+            <int>175</int>
+        </experience>
+    </potion>
+
+    <!-- Dwarf weed potion -->
+    <potion>
+        <potionId>109</potionId>
+        <secondItem>
+            <int>245</int>
+        </secondItem>
+        <finishedPotion>
+            <int>169</int>
+        </finishedPotion>
+        <level>
+            <int>72</int>
+        </level>
+        <experience>
+            <int>162</int>
+        </experience>
+    </potion>
+
+    <!-- Torstol potion -->
+    <potion>
+        <potionId>111</potionId>
+        <secondItem>
+            <int>247</int>
+        </secondItem>
+        <finishedPotion>
+            <int>189</int>
+        </finishedPotion>
+        <level>
+            <int>78</int>
+        </level>
+        <experience>
+            <int>175</int>
+        </experience>
+    </potion>
+
+    <!-- Extreme attack -->
+    <potion>
+        <potionId>145</potionId>
+        <secondItem>
+            <int>261</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15309</int>
+        </finishedPotion>
+        <level>
+            <int>88</int>
+        </level>
+        <experience>
+            <int>220</int>
+        </experience>
+    </potion>
+    <!-- Extreme strength -->
+    <potion>
+        <potionId>157</potionId>
+        <secondItem>
+            <int>267</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15313</int>
+        </finishedPotion>
+        <level>
+            <int>89</int>
+        </level>
+        <experience>
+            <int>230</int>
+        </experience>
+    </potion>
+
+    <!-- Extreme defence -->
+    <potion>
+        <potionId>163</potionId>
+        <secondItem>
+            <int>2481</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15317</int>
+        </finishedPotion>
+        <level>
+            <int>90</int>
+        </level>
+        <experience>
+            <int>240</int>
+        </experience>
+    </potion>
+
+    <!-- Super Antifire -->
+    <potion>
+        <potionId>2454</potionId>
+        <secondItem>
+            <int>4621</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15305</int>
+        </finishedPotion>
+        <level>
+            <int>85</int>
+        </level>
+        <experience>
+            <int>210</int>
+        </experience>
+    </potion>
+
+    <!-- Recover special -->
+    <potion>
+        <potionId>3018</potionId>
+        <secondItem>
+            <int>5972</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15301</int>
+        </finishedPotion>
+        <level>
+            <int>84</int>
+        </level>
+        <experience>
+            <int>200</int>
+        </experience>
+    </potion>
+
+    <!-- Extreme Magic potion -->
+    <potion>
+        <potionId>3042</potionId>
+        <secondItem>
+            <int>9594</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15321</int>
+        </finishedPotion>
+        <level>
+            <int>91</int>
+        </level>
+        <experience>
+            <int>250</int>
+        </experience>
+    </potion>
+
+    <!-- Extreme Ranging potion -->
+    <potion>
+        <potionId>169</potionId>
+        <secondItem>
+            <int>12539</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15325</int>
+        </finishedPotion>
+        <level>
+            <int>92</int>
+        </level>
+        <experience>
+            <int>260</int>
+        </experience>
+    </potion>
+
+    <!-- Super Prayer potion -->
+    <potion>
+        <potionId>139</potionId>
+        <secondItem>
+            <int>6810</int>
+        </secondItem>
+        <finishedPotion>
+            <int>15329</int>
+        </finishedPotion>
+        <level>
+            <int>94</int>
+        </level>
+        <experience>
+            <int>270</int>
+        </experience>
+    </potion>
+
+
+</list>

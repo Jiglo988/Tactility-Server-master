@@ -1,0 +1,115 @@
+<!-- Herbloring XML configuration file -->
+
+<list>
+    <!-- Unidentified Guam -->
+    <herb>
+        <herbId>199</herbId>
+        <cleanId>249</cleanId>
+        <level>1</level>
+        <experience>2.5</experience>
+    </herb>
+
+    <!-- Unidentified Marrentill -->
+    <herb>
+        <herbId>201</herbId>
+        <cleanId>251</cleanId>
+        <level>5</level>
+        <experience>3.75</experience>
+    </herb>
+
+    <!-- Unidentified Tarromin -->
+    <herb>
+        <herbId>203</herbId>
+        <cleanId>253</cleanId>
+        <level>11</level>
+        <experience>5</experience>
+    </herb>
+
+    <!-- Unidentified Harralander -->
+    <herb>
+        <herbId>205</herbId>
+        <cleanId>255</cleanId>
+        <level>20</level>
+        <experience>6</experience>
+    </herb>
+
+    <!-- Unidentified Ranarr -->
+    <herb>
+        <herbId>207</herbId>
+        <cleanId>257</cleanId>
+        <level>25</level>
+        <experience>7.5</experience>
+    </herb>
+
+    <!-- Unidentified Irit Leaf -->
+    <herb>
+        <herbId>209</herbId>
+        <cleanId>259</cleanId>
+        <level>40</level>
+        <experience>9</experience>
+    </herb>
+
+    <!-- Unidentified Avantoe -->
+    <herb>
+        <herbId>211</herbId>
+        <cleanId>261</cleanId>
+        <level>48</level>
+        <experience>10</experience>
+    </herb>
+
+    <!-- Unidentified Kwuarm -->
+    <herb>
+        <herbId>213</herbId>
+        <cleanId>263</cleanId>
+        <level>54</level>
+        <experience>11.25</experience>
+    </herb>
+
+    <!-- Unidentified Cadantine -->
+    <herb>
+        <herbId>215</herbId>
+        <cleanId>265</cleanId>
+        <level>65</level>
+        <experience>12.5</experience>
+    </herb>
+
+    <!-- Unidentified Dwarf Weed -->
+    <herb>
+        <herbId>217</herbId>
+        <cleanId>267</cleanId>
+        <level>70</level>
+        <experience>13.75</experience>
+    </herb>
+
+    <!-- Unidentified Torstol -->
+    <herb>
+        <herbId>219</herbId>
+        <cleanId>269</cleanId>
+        <level>75</level>
+        <experience>15</experience>
+    </herb>
+
+    <!-- Unidentified Snap Dragon -->
+    <herb>
+        <herbId>3051</herbId>
+        <cleanId>3000</cleanId>
+        <level>59</level>
+        <experience>11.5</experience>
+    </herb>
+
+    <!-- Unidentified Toadflax -->
+    <herb>
+        <herbId>3049</herbId>
+        <cleanId>2998</cleanId>
+        <level>30</level>
+        <experience>8</experience>
+    </herb>
+
+    <!-- Unidentified Lantadyme -->
+    <herb>
+        <herbId>2485</herbId>
+        <cleanId>2481</cleanId>
+        <level>67</level>
+        <experience>13</experience>
+    </herb>
+</list>

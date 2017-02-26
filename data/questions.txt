@@ -1,0 +1,901 @@
+<question>What is the capital of Afghanistan?
+<answer>kabul
+<question>What is the capital of Albania?
+<answer>tirane
+<question>What is the capital of Algeria?
+<answer>algiers
+<question>What is the capital of Andorra?
+<answer>andorra la vella
+<question>What is the capital of Angola?
+<answer>luanda
+<question>What is the capital of Antigua and Barbuda?
+<answer>saint john's
+<question>What is the capital of Argentina?
+<answer>buenos aires
+<question>What is the capital of Armenia?
+<answer>yerevan
+<question>What is the capital of Australia?
+<answer>canberra
+<question>What is the capital of Austria?
+<answer>vienna
+<question>What is the capital of Azerbaijan?
+<answer>baku
+<question>What is the capital of The Bahamas?
+<answer>nassau
+<question>What is the capital of Bahrain?
+<answer>manama
+<question>What is the capital of Bangladesh?
+<answer>dhaka
+<question>What is the capital of Barbados?
+<answer>bridgetown
+<question>What is the capital of Belarus?
+<answer>minsk
+<question>What is the capital of Belgium?
+<answer>brussels
+<question>What is the capital of Belize?
+<answer>belmopan
+<question>What is the capital of Benin?
+<answer>porto-novo
+<question>What is the capital of Bhutan?
+<answer>thimphu
+<question>What is the capital of Bolivia?
+<answer>la paz
+<question>What is the capital of Bosnia and Herzegovina?
+<answer>sarajevo
+<question>What is the capital of Botswana?
+<answer>gaborone
+<question>What is the capital of Brazil?
+<answer>brasilia
+<question>What is the capital of Brunei?
+<answer>bandar seri begawan
+<question>What is the capital of Bulgaria?
+<answer>sofia
+<question>What is the capital of Burkina Faso?
+<answer>ouagadougou
+<question>What is the capital of Burundi?
+<answer>bujumbura
+<question>What is the capital of Cambodia?
+<answer>phnom penh
+<question>What is the capital of Cameroon?
+<answer>yaounde
+<question>What is the capital of Canada?
+<answer>ottawa
+<question>What is the capital of Cape Verde?
+<answer>praia
+<question>What is the capital of Central African Republic?
+<answer>bangui
+<question>What is the capital of Chad?
+<answer>n'djamena
+<question>What is the capital of Chile?
+<answer>santiago
+<question>What is the capital of China?
+<answer>beijing
+<question>What is the capital of Colombia?
+<answer>bogota
+<question>What is the capital of Comoros?
+<answer>moroni
+<question>What is the capital of Congo,Republic of the?
+<answer>brazzaville
+<question>What is the capital of Congo,Democratic Republic of the?
+<answer>kinshasa
+<question>What is the capital of CostaRica?
+<answer>san jose
+<question>What is the capital of Cote d'Ivoire?
+<answer>yamoussoukro
+<question>What is the capital of Croatia?
+<answer>zagreb
+<question>What is the capital of Cuba?
+<answer>havana
+<question>What is the capital of Cyprus?
+<answer>nicosia
+<question>What is the capital of Czech Republic?
+<answer>prague
+<question>What is the capital of Denmark?
+<answer>copenhagen
+<question>What is the capital of Djibouti?
+<answer>djibouti
+<question>What is the capital of Dominica?
+<answer>roseau
+<question>What is the capital of Dominican Republic?
+<answer>santo domingo
+<question>What is the capital of EastTimor?
+<answer>dili
+<question>What is the capital of Ecuador?
+<answer>quito
+<question>What is the capital of Egypt?
+<answer>cairo
+<question>What is the capital of El Salvador?
+<answer>san salvador
+<question>What is the capital of Equatorial Guinea?
+<answer>malabo
+<question>What is the capital of Eritrea?
+<answer>asmara
+<question>What is the capital of Estonia?
+<answer>tallinn
+<question>What is the capital of Ethiopia?
+<answer>addis ababa
+<question>What is the capital of Fiji?
+<answer>suva
+<question>What is the capital of Finland?
+<answer>helsinki
+<question>What is the capital of France?
+<answer>paris
+<question>What is the capital of Gabon?
+<answer>libreville
+<question>What is the capital of The Gambia?
+<answer>banjul
+<question>What is the capital of Georgia?
+<answer>tbilisi
+<question>What is the capital of Germany?
+<answer>berlin
+<question>What is the capital of Ghana?
+<answer>accra
+<question>What is the capital of Greece?
+<answer>athens
+<question>What is the capital of Grenada?
+<answer>saint george's
+<question>What is the capital of Guatemala?
+<answer>guatemala city
+<question>What is the capital of Guinea?
+<answer>conakry
+<question>What is the capital of Guinea-Bissau?
+<answer>bissau
+<question>What is the capital of Guyana?
+<answer>georgetown
+<question>What is the capital of Haiti?
+<answer>port-au-prince
+<question>What is the capital of Honduras?
+<answer>tegucigalpa
+<question>What is the capital of Hungary?
+<answer>budapest
+<question>What is the capital of Iceland?
+<answer>reykjavik
+<question>What is the capital of India?
+<answer>new delhi
+<question>What is the capital of Indonesia?
+<answer>jakarta
+<question>What is the capital of Iran?
+<answer>tehran
+<question>What is the capital of Iraq?
+<answer>baghdad
+<question>What is the capital of Ireland?
+<answer>dublin
+<question>What is the capital of Israel?
+<answer>jerusalem
+<question>What is the capital of Italy?
+<answer>rome
+<question>What is the capital of Jamaica?
+<answer>kingston
+<question>What is the capital of Japan?
+<answer>tokyo
+<question>What is the capital of Jordan?
+<answer>amman
+<question>What is the capital of Kazakhstan?
+<answer>astana
+<question>What is the capital of Kenya?
+<answer>nairobi
+<question>What is the capital of Kiribati?
+<answer>tarawa atoll
+<question>What is the capital of Korea,North?
+<answer>pyongyang
+<question>What is the capital of Korea,South?
+<answer>seoul
+<question>What is the capital of Kosovo?
+<answer>pristina
+<question>What is the capital of Kuwait?
+<answer>kuwait city
+<question>What is the capital of Kyrgyzstan?
+<answer>bishkek
+<question>What is the capital of Laos?
+<answer>vientiane
+<question>What is the capital of Latvia?
+<answer>riga
+<question>What is the capital of Lebanon?
+<answer>beirut
+<question>What is the capital of Lesotho?
+<answer>maseru
+<question>What is the capital of Liberia?
+<answer>monrovia
+<question>What is the capital of Libya?
+<answer>tripoli
+<question>What is the capital of Liechtenstein?
+<answer>vaduz
+<question>What is the capital of Lithuania?
+<answer>vilnius
+<question>What is the capital of Luxembourg?
+<answer>luxembourg
+<question>What is the capital of Macedonia?
+<answer>skopje
+<question>What is the capital of Madagascar?
+<answer>antananarivo
+<question>What is the capital of Malawi?
+<answer>lilongwe
+<question>What is the capital of Malaysia?
+<answer>kuala lumpur
+<question>What is the capital of Maldives?
+<answer>male
+<question>What is the capital of Mali?
+<answer>bamako
+<question>What is the capital of Malta?
+<answer>valletta
+<question>What is the capital of Marshall Islands?
+<answer>majuro
+<question>What is the capital of Mauritania?
+<answer>nouakchott
+<question>What is the capital of Mauritius?
+<answer>port louis
+<question>What is the capital of Mexico?
+<answer>mexico city
+<question>What is the capital of Micronesia?
+<answer>palikir
+<question>What is the capital of Moldova?
+<answer>chisinau
+<question>What is the capital of Monaco?
+<answer>monaco
+<question>What is the capital of Mongolia?
+<answer>ulaanbaatar
+<question>What is the capital of Montenegro?
+<answer>podgorica
+<question>What is the capital of Morocco?
+<answer>rabat
+<question>What is the capital of Mozambique?
+<answer>maputo
+<question>What is the capital of Myanmar(Burma)?
+<answer>rangoon
+<question>What is the capital of Namibia?
+<answer>windhoek
+<question>What is the capital of Nepal?
+<answer>kathmandu
+<question>What is the capital of Netherlands?
+<answer>amsterdam
+<question>What is the capital of New Zealand?
+<answer>wellington
+<question>What is the capital of Nicaragua?
+<answer>managua
+<question>What is the capital of Niger?
+<answer>niamey
+<question>What is the capital of Nigeria?
+<answer>abuja
+<question>What is the capital of Norway?
+<answer>oslo
+<question>What is the capital of Oman?
+<answer>muscat
+<question>What is the capital of Pakistan?
+<answer>islamabad
+<question>What is the capital of Palau?
+<answer>melekeok
+<question>What is the capital of Panama?
+<answer>panama city
+<question>What is the capital of Papua New Guinea?
+<answer>port moresby
+<question>What is the capital of Paraguay?
+<answer>asuncion
+<question>What is the capital of Peru?
+<answer>lima
+<question>What is the capital of Philippines?
+<answer>manila
+<question>What is the capital of Poland?
+<answer>warsaw
+<question>What is the capital of Portugal?
+<answer>lisbon
+<question>What is the capital of Qatar?
+<answer>doha
+<question>What is the capital of Romania?
+<answer>bucharest
+<question>What is the capital of Russia?
+<answer>moscow
+<question>What is the capital of Rwanda?
+<answer>kigali
+<question>What is the capital of Saint Kitts and Nevis?
+<answer>basseterre
+<question>What is the capital of Saint Lucia?
+<answer>castries
+<question>What is the capital of Saint Vincent and the Grenadines?
+<answer>kingstown
+<question>What is the capital of Samoa?
+<answer>apia
+<question>What is the capital of San Marino?
+<answer>san marino
+<question>What is the capital of Sao Tome and Principe?
+<answer>sao tome
+<question>What is the capital of Saudi Arabia?
+<answer>riyadh
+<question>What is the capital of Senegal?
+<answer>dakar
+<question>What is the capital of Serbia?
+<answer>belgrade
+<question>What is the capital of Seychelles?
+<answer>victoria
+<question>What is the capital of Sierra Leone?
+<answer>freetown
+<question>What is the capital of Singapore?
+<answer>singapore
+<question>What is the capital of Slovakia?
+<answer>bratislava
+<question>What is the capital of Slovenia?
+<answer>ljubljana
+<question>What is the capital of Solomon Islands?
+<answer>honiara
+<question>What is the capital of Somalia?
+<answer>mogadishu
+<question>What is the capital of South Africa?
+<answer>pretoria
+<question>What is the capital of South Sudan?
+<answer>juba
+<question>What is the capital of Spain?
+<answer>madrid
+<question>What is the capital of SriLanka?
+<answer>colombo
+<question>What is the capital of Sudan?
+<answer>khartoum
+<question>What is the capital of Suriname?
+<answer>paramaribo
+<question>What is the capital of Swaziland?
+<answer>mbabane
+<question>What is the capital of Sweden?
+<answer>stockholm
+<question>What is the capital of Switzerland?
+<answer>bern
+<question>What is the capital of Syria?
+<answer>damascus
+<question>What is the capital of Taiwan?
+<answer>taipei
+<question>What is the capital of Tajikistan?
+<answer>dushanbe
+<question>What is the capital of Tanzania?
+<answer>dodoma
+<question>What is the capital of Thailand?
+<answer>bangkok
+<question>What is the capital of Togo?
+<answer>lome
+<question>What is the capital of Tonga?
+<answer>nuku'alofa
+<question>What is the capital of Trinidad and Tobago?
+<answer>port-of-spain
+<question>What is the capital of Tunisia?
+<answer>tunis
+<question>What is the capital of Turkey?
+<answer>ankara
+<question>What is the capital of Turkmenistan?
+<answer>ashgabat
+<question>What is the capital of Tuvalu?
+<answer>vaiaku village
+<question>What is the capital of Uganda?
+<answer>kampala
+<question>What is the capital of Ukraine?
+<answer>kyiv
+<question>What is the capital of United Arab Emirates?
+<answer>abu dhabi
+<question>What is the capital of United Kingdom?
+<answer>london
+<question>What is the capital of the United States of America?
+<answer>washington d.c.
+<question>What is the capital of Uruguay?
+<answer>montevideo
+<question>What is the capital of Uzbekistan?
+<answer>tashkent
+<question>What is the capital of Vanuatu?
+<answer>port-vila
+<question>What is the capital of Vatican City?
+<answer>vatican city
+<question>What is the capital of Venezuela?
+<answer>caracas
+<question>What is the capital of Vietnam?
+<answer>hanoi
+<question>What is the capital of Yemen?
+<answer>sanaa
+<question>What is the capital of Zambia?
+<answer>lusaka
+<question>What is the capital of Zimbabwe?
+<answer>harare
+<question>What is the death of silence?
+<answer>noise
+<answer>sound
+<question>What religion is Bob Marley
+<answer>rusta
+<question>8x + 16 = 0 what is X
+<answer>-2
+<question>What recognised American food makes Americans fat
+<answer>hamburgers
+<question>Which movie is James Cameron famous for?
+<answer>avatar
+<answer>titanic
+<question>Why is activity Monte Carlo mostly known for?
+<answer>casino
+<answer>gambling
+<answer>prostitutes
+<question>What continent is the biggest continent in the world?
+<answer>asia
+<question>What country has the highest population in the world?
+<answer>china
+<question>Name the emperical formula of Hydrochloric acid
+<answer>hcl
+<question>What is the death of sound?
+<answer>silence
+<question>What programming language am i made up from
+<answer>java
+<question>What is the highest combat level in Runescape?
+<answer>138
+<question>What is the most abundant gas on earth
+<answer>nitrogen
+<question>What is the positive square root of 36
+<answer>6
+<question>How do you spell 60
+<answer>sixty
+<question>Who does daffy duck hate in loonley toons
+<answer>bugs
+<question>What colour is the sun
+<answer>orange
+<question>What does the red traffic light mean
+<answer>stop
+<question>What does a cow say
+<answer>moo
+<question>How many legs does a spider have
+<answer>8
+<question>Is a tomato a fruit or a vegetable
+<answer>fruit
+<question>What do rabbits like to eat
+<answer>carrots
+<answer>carrot
+<question>What contenant do Spanish people come from
+<answer>europe
+<question>What does CF stand for
+<answer>cystic fibrosis
+<question>What is the capital of Turkey?
+<answer>ankara
+<question>In 1873, Colgate made a toothpaste that was available in a...
+<answer>jar
+<answer>a jar
+<question>Howmuch is 111,111,111 x 111,111,111
+<answer>12345678987654321
+<question>A jellyfish is ..... percent water
+<answer>95
+<question>The average person laughs ..... times a day
+<answer>15
+<question>Women's hearts beat ...... than men's
+<answer>faster
+<question>The electric chair was invented by a ..........
+<answer>dentist
+<question>Howmany sodas does the average American drink a year?
+<answer>600
+<question>x.x + 6x + 9 = 0 , x = ?
+<answer>-3
+<question>sinx/cosx = ?
+<answer>tanx
+<question>Peanuts are one of the ingredients of ........
+<answer>dynamite
+<question>Only 55 percent of all Americans know that the sun is a ......
+<answer>star
+<question>A giraffe can clean its ears with its 21-inch .......
+<answer>tongue
+<question>A goldfish has a memory span of ...... seconds
+<answer>3
+<answer>three
+<question>About .... percent of Americans to get a good paying job
+<answer>70
+<answer>seventy
+<question>Scarface, aka Tony .......
+<answer>montana
+<question>Who is nr 1 owner?
+<answer>graham
+<answer>edward
+<question>...... is the shortest complete sentence in the English language.
+<answer>i am
+<question>In ..... percent of American households, women manage the money 
+<answer>75
+<question>Leonardo Da Vinci invented the ..........
+<answer>scissors
+<question>Lightning strikes about ...... times per minute on this planet
+<answer>6000
+<question>What year did WW1 start?
+<answer>1914
+<question>Who is the richest man in the world?
+<answer>carlos slim
+<question>The longest river in the world is the .....
+<answer>nile
+<question>The average person falls asleep in ...... minutes
+<answer>7
+<answer>seven
+<question>........  is the only English word that ends in the letters "mt"
+<answer>dreamt
+<question>Howmany people die every day? (avg)
+<answer>259000
+<question>Howmany people in the world have sex every day? (avg)
+<answer>200000000
+<question>What is the capital of Belgium?
+<answer>brussels
+<question>Howmany liters of beer do Belgians consume per person per year?
+<answer>150
+<question>There are over ....... kinds of beer made in Belgium
+<answer>800
+<question>French fries were invented by .....
+<answer>belgians
+<question>Html stands for...
+<answer>hypertext markup language
+<question>Coca-cola was originally .....
+<answer>green
+<question>It is impossible to lick your....
+<answer>elbow
+<question>The first novel ever written on a typewriter is .....
+<answer>tom sawyer
+<question>The cost of raising a medium-size dog to the age of eleven in usd ?
+<answer>6400
+<question>Half of all Americans live within 50 miles of what?
+<answer>their birthplace
+<answer>birthplace
+<question>The strongest muscle in the body is the...
+<answer>tongue
+<question>sinx*sinx + cosx*cosx = ?
+<answer>1
+<question>An ostrich’s eye is bigger than its ......
+<answer>brain
+<question>In which year did Frank Zappa die
+<answer>1993
+<question>What was the profession of Dorothea Lange
+<answer>Photographer
+<question>Which country does the airline VASP come from
+<answer>Brazil
+<question>Who is the Greek God of the sea
+<answer>Poseidon
+<question>How many days can an ant survive under water?
+<answer>Two
+<question>What is the most popular beverage in the world?
+<answer>Tea
+<question>What brand is known as the 'King of Beers'?
+<answer>Budweiser
+<question>I can be cracked I can be made.I can be told I can be played.What am I?
+<answer>joke
+<question>sinx = 0 , x = ?
+<answer>0
+<answer>pi
+<question>PI = ?
+<answer>3.14159265
+<answer>project insanity
+<question>e = ?
+<answer>2.71828183
+<question>sqrt(2) = ?
+<answer>1.41421356
+<question>What does a pker say when he dies?
+<answer>l2pk
+<question>What is the country with the highest alcohol consumption per person?
+<answer>luxembourg
+<question>I have a mass of approx 1u and I'm not charged, who am I?
+<answer>a neutron
+<answer>neutron
+<question>In which state is Temple University
+<answer>Pennsylvania
+<question>In square miles, how big is Lake Ontario
+<answer>7550
+<question>How many miles per time zone, on average?
+<answer>1000
+<question>How many miles around the world to the nearest 1000?
+<answer>24000
+<question>A rapper and 1 dollar divided by 2
+<answer>50 cent
+<question>Who is the Author of the Harry Potter series?
+<answer>j.k. rowling
+<question>Who plays the role of Hermione Granger in the Harry Potter movies?
+<answer>emma watson
+<question>What university is considered to be the best one in the world?
+<answer>harvard university
+<answer>harvard
+<question>Who is the largest distributor of ketchup in the world?
+<answer>heinz
+<question>In what year did the French revolution happen?
+<answer>1789
+<question>...... is "hi" in Russian
+<answer>privet
+<question>In which city can we find the Sagrada Familia?
+<answer>barcelona
+<question>In what language were most books written in the middle ages?
+<answer>latin
+<question>Howmany minutes in 2 hours 15 minutes?
+<answer>135
+<question>What does R n B mean?
+<answer>rhythem  and blues
+<question>Who invented the light bulb?
+<answer>edison
+<answer>thomas edison
+<question>What is the most southern country in Africa?
+<answer>south-africa
+<answer>south africa
+<question>What is the capital of Europe?
+<answer>brussels
+<question>What is the name of Bart Simpsons mother?
+<answer>marge
+<question>Finland + Norway + Sweden = ?
+<answer>scandinavia
+<question>In which movie do Ganalf and Aragorn fight against Sauron?
+<answer>lord of the rings
+<question>1, 2, 3, 5, 8, ? , X       ..... X is?
+<answer>21
+<question>What's the least expensive and most popular fruit?
+<answer>banana
+<question>Queen Elizabeth has four dogs of which breed?
+<answer>corgies
+<question>Name an actor who played James Bond
+<answer>sean connery
+<answer>george lazenby
+<answer>timothy dalton
+<answer>pierce brosnan
+<question>Which is the smallest ocean?
+<answer>artic
+<question>which is Britain's second largest city?
+<answer>birmingham
+<question>How many fingers did Ann Boleyn have?
+<answer>11
+<question>Where was Marco Polo's home town?
+<answer>venice
+<question>What religion was Adolf Hitler?
+<answer>catholic
+<question>How many eyes are there on a pack of 52 cards?
+<answer>42
+<question>Which is the most spoken language?
+<answer>chinese
+<question>Who starts first in chess?
+<answer>white
+<question>What horoscope sign has a crab?
+<answer>cancer
+<question>What year did the Spanish Civil War end?
+<answer>1939
+<question>Which river goes through London?
+<answer>thames
+<question>How many colours are there in a rainbow?
+<answer>7
+<question>What is the highest mountain in the world?
+<answer>mount everest
+<question>What is the biggest island in the world?
+<answer>greenland
+<question>Nickname of New York City is?
+<answer>big apple
+<question>What month of the year only has 28 days?
+<answer>february
+<question>Where was the winter olympics 2010 held?
+<answer>vancouver
+<question>How many grams are in an ounce?
+<answer>28
+<question>What is the number of squares on a chessboard
+<answer>64
+<question>How many legs does a butterfly have?
+<answer>6
+<question>How many strings does a violin have?
+<answer>4
+<question>What instrument often plays a roll in jazz
+<answer>saxophone
+<question>In which athletic event is a heavy metal ball thrown?
+<answer>shot put
+<question>Golf was first played in what country?
+<answer>scotland
+<question>Which instrument has keys, pedal, and strings?
+<answer>piano
+<question>Antartica covers which of the earth's poles?
+<answer>south pole
+<question>What colour do you add to blue to make it green?
+<answer>yellow
+<question>What is the largest mammal in the world?
+<answer>blue whale
+<question>How many hours do cats sleep a day?
+<answer>16
+<answer>17
+<answer>18
+<question>What was the most expensive painting ever sold for?
+<answer>140 million
+<answer>140m
+<question>How many quest points do you receive for completing Romeo and Juliet?
+<answer>5
+<question> Who did the Opium War include?
+<answer>China and Britain
+<answer>British and China
+<answer>Britain and China
+<question> Who was the first President of The United States?
+<answer>John Hanson
+<question>Which president is referred to as the  "Indian Killer"?
+<answer>Andrew Jackson
+<question> How many Provinces are in Canada?
+<answer>10
+<question> How many States are in the USA?
+<answer>50
+<question> Which country has the largest land mass?
+<answer>Russia
+<question> Which two brothers changed the world forever?
+<answer>The Wright Brothers
+<question> Which company controls 14% of all food contribution in the world?
+<answer>Nestle
+<question> When did the "rick-rolling" begin?
+<answer>May 2007
+<question>Which female is the highest paid actress?
+<answer>Angelina Jolie
+<question> Who was the biggest Hypocrite in world history?
+<answer>Adolf Hitler
+<question> What is a*a + b*b = c*c normally referred as?
+<answer>The Pythagoras Theorem
+<answer>Pythagoras Theorem
+<question>What film won an academy award for best picture in 2000?
+<answer>Gladiator 
+<question>What film won an academy award for best picture in 1999?
+<answer>American Beauty
+<question>What film won an academy award for best picture in 1998?
+<answer>Shakespeare in Love
+<question>What film won an academy award for best picture in 1997?
+<answer>Titanic
+<question>What film won an academy award for best picture in 1996?
+<answer>The English Patient
+<question>What film won an academy award for best picture in 1995?
+<answer>Braveheart
+<question>What film won an academy award for best picture in 1994?
+<answer>Forrest Gump
+<question>What is the little drummer boy's name
+<answer>aaron
+<question>What is Barbie's last name
+<answer>roberts
+<question>Where was Woodstock concert held
+<answer>bethel ny
+<question>Who was the first Catholic president
+<answer>kennedy
+<question>Who was the last astronaut to walk on the moon
+<answer>Eugene Cernan
+<question>Who was the voice of ET
+<answer>debra winger
+<question>Who was the first female composer to win an academy award
+<answer>barbara streisand
+<question>How many witches were hanged in Witch Hill in Salem Mass
+<answer>0
+<question>What was George Washington's salary as president
+<answer>25000
+<question>What are the only English words that end in "gry"
+<answer>angry
+<answer>hungry
+<question>What is Donald Ducks middle name
+<answer>Fauntleroy
+<question>how many members are in the united state's congress?
+<answer>435
+<question>specifically what type of fruit is the tomato?
+<answer>fruit
+<question>what nerve connects the brain to the eye?
+<answer>optic nerve
+<question>How many banks are robbed a day? avg
+<answer>20
+<question>most lipsticks contain what fish part?
+<answer>scales
+<question>What's the maximum amount of times a piece of paper can be folded?
+<answer>7
+<question>Clinophobia is the fear of?
+<answer>birds
+<question>what animal can last longer than a camel, without water?
+<answer>rat
+<question>what is the dot above the "i" called?
+<answer>tittle
+<question>40% of mcdonald's sales come from?
+<answer>happy meals
+<question>On avg how many newborns are given to the wrong family, daily?
+<answer>12
+<question>Every person has a unique .... print
+<answer>tongue
+<question>ketchup was originally sold as?
+<answer>medicine
+<question>The first CD in the USA was by?
+<answer>bruce springstein
+<question>What animal will glow under a ultra violet light?
+<answer>scorpion
+<question>Forensic science is based off of what fictional character?
+<answer>sherlock holmes
+<question>chewing ... while cutting onions stops your from crying
+<answer>gum
+<question>roses are red, violets are ?
+<answer>violet
+<question>The "qwerty" keyboard was invented in?
+<answer>1873
+<question>Napoleon III suffered from ailurophobia, which is?
+<answer>fear of cats
+<question>What city is the Palace of Versailles nearest to?
+<answer>paris
+<question>Who composed the Minute Waltz?
+<answer>frederic chopin
+<question>Who founded the first public library in the US?
+<answer>benjamin franklin
+<question>In what year was Alaska sold to the US?
+<answer>in the year 1867
+<question>Who is the only athlete to win the Olympic marathon twice and in successive Olympic games?
+<answer>abebe bikila
+<question>Which athlete has won the maximum number of gold medals at a single Olympics, and how many?
+<answer>michael phelps
+<question>Who was the 16th president of the United States?
+<answer>abraham lincoln
+<question>Who was the first gymnast to be awarded a perfect score of 10 at the Olympics?
+<answer>nadia comaneci
+<question>What was Mickey Mouse's original name?
+<answer>mortimer mouse
+<question>In what year did the Titanic sink?
+<answer>1912
+<question>When was the first atomic bomb dropped?
+<answer>august 6, 1945
+<question>What is the common name for calcium carbonate?
+<answer>chalk
+<question>What is the capital of Hawaii?
+<answer>honolulu
+<question>What is the name of the actor who plays the character of Harry Potter?
+<answer>daniel radcliffe
+<question>Who discovered rubber?
+<answer>charles macintosh
+<question>Where did the Olympic Games originate?
+<answer>greece
+<question>Who is known as the Father of the Modern Olympics?
+<answer>pierre de coubertin
+<question>Who invented the telephone?
+<answer>alexander graham bell
+<question>Who was the first actor to have played the role of James Bond in the movie series?
+<answer>sean connery
+<question>Which was the country that first made the use of paper money?
+<answer>china
+<question>Which is the highest mountain in Africa?
+<answer>kilimanjaro
+<question>The Statue of Liberty was gifted to the United States by which country?
+<answer>france
+<question>What is the name of the Greek God of music?
+<answer>apollo
+<question>Who painted the Mona Lisa?
+<answer>leonardo da vinci
+<question>What is the antonym of the word 'synonym'?
+<answer>antonym
+<question>How many number of musicians constitute a big band?
+<answer>ten
+<question>What is the meaning of the Italian word ‘adagio’?
+<answer>slow
+<question>Which is the top selling album to sell more than 10 million copies of the album?
+<answer>Garth Brooks
+<question>Which is the largest state in the United States of America?
+<answer>Alaska
+<question>Which Beatles song lasted longest on the charts for 19 weeks?
+<answer>Hey Jude
+<question>Which famous document starts with ‘When in the course of human events…’?
+<answer>Declaration of Independence
+<question>With what more is the gladiator armed along with a dagger and spear?
+<answer>Net
+<question>Which single name is applied to Holy Roman Emperor Charles the Great?
+<answer>Charlemagne
+<question>Which 20th century war was dubbed as ‘forgotten war’, even after 54,246 U.S. deaths?
+<answer>Korean War
+<question>Dover is the capital of which state?
+<answer>Delaware
+<question>Which Soviet dictator was training to be a priest when he turned to Marxism?
+<answer>Joseph Stalin
+<question>Which were the two most popular rock operas of 1969?
+<answer>Hair and Tommy
+<question>Which civil rights leader did Dorothy Parker leave her bulk of estate to?
+<answer>Martin Luther King Jr
+<question>Which nation issued the five dollar bill which was found in the pocket of Abraham Lincoln, when he was shot?
+<answer>The Confederate States of America
+<question>Which Junior High School musical was canceled in 1994 when Shinnecock Indians objected to the ‘Ug-a-wug’ song?
+<answer>Peter Pan
+<question>Which Michael Jackson album spawned five chart-topping singles?
+<answer>Bad
+<question>Which fruit was forbidden for Hawaiian women to eat by law?
+<answer>Coconut
+<question>Which vehicle was invented to circumvent trench warfare?
+<answer>Tank
+<question>Which jazz musician had got his pet name by shortening the name ‘Satchel Mouth’?
+<answer>Louis Armstrong
+<question>What is the unit of measurement used to measure the height of horse?
+<answer>Hands
+<question>Which is the highest waterfall in the world?
+<answer>Angel Waterfall
+<question>Where was the sky city concept introduced for the first time?
+<answer>Japan
+<question>Lake Tahoe has only one outlet, name the outlet?
+<answer>Truckee River
+<question>Which is the world’s first national park?
+<answer>Yellowstone National Park, USA 
+<question>What is Alaska’s second most populous city?
+<answer>Fairbanks
+<question>Which U.S city is at the highest altitude above the sea level?
+<answer>Santa Fe
+<question>Which is the lowest point on the land of the United States continent?
+<answer>Death valley
+<question>SLR is the abbreviation of what in the field of photography?
+<answer>Single Lens Reflex camera
+<question>Which company is the largest producer of computer software for personal computers?
+<answer>Microsoft
+<question>What does the abbreviation GUI stand for?
+<answer>Graphical User Interface
+<question>Which element was discovered by the French chemists Marie Curie and Pierre Curie?
+<answer>Radium

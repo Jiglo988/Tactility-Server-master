@@ -1,0 +1,130 @@
+<!-- Runecrafting XML configuration file -->
+<list>
+    <runes>
+        <runeId>556</runeId>
+        <level>1</level>
+        <levels>
+            <int>11</int>
+            <int>22</int>
+            <int>33</int>
+            <int>44</int>
+            <int>55</int>
+            <int>66</int>
+            <int>77</int>
+            <int>88</int>
+            <int>99</int>
+        </levels>
+        <xp>5</xp>
+    </runes>
+
+    <runes>
+        <runeId>558</runeId>
+        <level>2</level>
+        <levels>
+            <int>2</int>
+            <int>14</int>
+            <int>28</int>
+            <int>42</int>
+            <int>56</int>
+            <int>70</int>
+            <int>84</int>
+            <int>98</int>
+        </levels>
+        <xp>5.5</xp>
+    </runes>
+
+    <runes>
+        <runeId>555</runeId>
+        <level>5</level>
+        <levels>
+            <int>5</int>
+            <int>19</int>
+            <int>38</int>
+            <int>57</int>
+            <int>76</int>
+            <int>95</int>
+        </levels>
+        <xp>6</xp>
+    </runes>
+
+    <runes>
+        <runeId>557</runeId>
+        <level>9</level>
+        <levels>
+            <int>9</int>
+            <int>26</int>
+            <int>52</int>
+            <int>78</int>
+        </levels>
+        <xp>6.5</xp>
+    </runes>
+
+    <runes>
+        <runeId>554</runeId>
+        <level>14</level>
+        <levels>
+            <int>14</int>
+            <int>35</int>
+            <int>70</int>
+        </levels>
+        <xp>7</xp>
+    </runes>
+
+    <runes>
+        <runeId>559</runeId>
+        <level>20</level>
+        <levels>
+            <int>20</int>
+            <int>46</int>
+            <int>92</int>
+        </levels>
+        <xp>7.5</xp>
+    </runes>
+
+    <runes>
+        <runeId>564</runeId>
+        <level>27</level>
+        <levels>
+            <int>27</int>
+            <int>59</int>
+        </levels>
+        <xp>8</xp>
+    </runes>
+
+    <runes>
+        <runeId>562</runeId>
+        <level>35</level>
+        <levels>
+            <int>35</int>
+            <int>74</int>
+        </levels>
+        <xp>8.5</xp>
+    </runes>
+
+    <runes>
+        <runeId>561</runeId>
+        <level>44</level>
+        <levels>
+            <int>44</int>
+            <int>91</int>
+        </levels>
+        <xp>9</xp>
+    </runes>
+
+    <runes>
+        <runeId>563</runeId>
+        <level>54</level>
+        <levels>
+            <int>54</int>
+        </levels>
+        <xp>9.5</xp>
+    </runes>
+    <runes>
+        <runeId>560</runeId>
+        <level>60</level>
+        <levels>
+            <int>60</int>
+        </levels>
+        <xp>12</xp>
+    </runes>
+</list>

@@ -1,0 +1,5 @@
+msg untradable = This item is untradable.
+
+entry-id 14484, 14485, 15332-15335, 2430-2439, 17999, 13444, 14661, 15441-15444, 6603, 6604, 8023-8500 = untradable
+entry-contains party, chaotic, santa, primal, arcane, clue = untradable
+entry-id 995, 12862, 0, 2412-2414, 6199, 14876-14889, 11724, 11725, 10025, 10026, 11949, 11726, 11727, 12747, 12744, 12852, 1391, 8195, 5068, 4295, 3243, 11061, 11238-11261,8851 = untradable
