@@ -1,12 +1,10 @@
 package org.hyperion.rs2.commands.newimpl;
 //<editor-fold defaultstate="collapsed" desc="Imports">
 
-import com.google.gson.JsonElement;
 import org.hyperion.Server;
 import org.hyperion.engine.EngineTask;
 import org.hyperion.engine.GameEngine;
 import org.hyperion.engine.task.Task;
-import org.hyperion.engine.task.TaskManager;
 import org.hyperion.engine.task.impl.OverloadStatsTask;
 import org.hyperion.rs2.GenericWorldLoader;
 import org.hyperion.rs2.commands.NewCommand;
@@ -28,12 +26,9 @@ import org.hyperion.rs2.model.content.misc2.Edgeville;
 import org.hyperion.rs2.model.content.misc2.NewGameMode;
 import org.hyperion.rs2.model.content.skill.dungoneering.DungeoneeringManager;
 import org.hyperion.rs2.model.possiblehacks.DataType;
-import org.hyperion.rs2.model.possiblehacks.PossibleHack;
-import org.hyperion.rs2.model.possiblehacks.PossibleHacksHolder;
 import org.hyperion.rs2.model.punishment.holder.PunishmentHolder;
 import org.hyperion.rs2.model.punishment.manager.PunishmentManager;
 import org.hyperion.rs2.net.LoginDebugger;
-import org.hyperion.rs2.net.security.EncryptionStandard;
 import org.hyperion.rs2.packet.ActionButtonPacketHandler;
 import org.hyperion.rs2.pf.Tile;
 import org.hyperion.rs2.pf.TileMap;
@@ -49,11 +44,10 @@ import org.hyperion.util.Time;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 //</editor-fold>
 
 /**
@@ -177,7 +171,7 @@ public class AdministratorCommands implements NewCommandExtension {
                         World.submit(new Task(500, "Infinite Special") {
                             @Override
                             public void execute() {
-                                player.getSpecBar().setAmount(1000);
+                                player.getSpecBar().setAmount(100);
                                 if (player.cE == null) {
                                     stop();
                                 }
