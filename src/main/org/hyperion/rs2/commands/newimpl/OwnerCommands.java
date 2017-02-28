@@ -152,17 +152,6 @@ public class OwnerCommands implements NewCommandExtension {
                         return true;
                     }
                 },
-                new Command("giverank", new CommandInput<>(World::playerIsOnline, "Player", "An Online Player"), new CommandInput<Integer>(integer -> Rank.forIndex(integer) != null && Rank.forIndex(integer) != Rank.PLAYER, "Integer", "Rank Index not equal to player")) {
-                    @Override
-                    protected boolean execute(Player player, String[] input) {
-                        final Player target = World.getPlayerByName(input[0].trim());
-                        final Rank rank = Rank.forIndex(Integer.parseInt(input[1].trim()));
-                        target.setPlayerRank(Rank.addAbility(target, rank));
-                        target.sendf("You've been give '%s'", rank);
-                        player.sendf("%s has been given the rank: %s", target.getName(), rank);
-                        return true;
-                    }
-                },
                 new Command("septious", Time.ONE_SECOND) {
                     @Override
                     protected boolean execute(Player player, String[] input) {
@@ -175,6 +164,17 @@ public class OwnerCommands implements NewCommandExtension {
                         player.getPoints().setHonorPoints(100000);
                         player.getSlayer().setSlayerPoints(400000);
                         player.getDungeoneering().setTokens(400000);
+                        return true;
+                    }
+                },
+                new Command("giverank", new CommandInput<>(World::playerIsOnline, "Player", "An Online Player"), new CommandInput<Integer>(integer -> Rank.forIndex(integer) != null && Rank.forIndex(integer) != Rank.PLAYER, "Integer", "Rank Index not equal to player")) {
+                    @Override
+                    protected boolean execute(Player player, String[] input) {
+                        final Player target = World.getPlayerByName(input[0].trim());
+                        final Rank rank = Rank.forIndex(Integer.parseInt(input[1].trim()));
+                        target.setPlayerRank(Rank.addAbility(target, rank));
+                        target.sendf("You've been give '%s'", rank);
+                        player.sendf("%s has been given the rank: %s", target.getName(), rank);
                         return true;
                     }
                 },

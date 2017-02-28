@@ -40,15 +40,6 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/Unused/Jar Libraries/gson-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/Unused/Jar Libraries/ItemReplacer.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -234,6 +225,24 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/Unused/Jar Libraries/commons-io-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Uusi kansio/gson-2.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Uusi kansio/apache-mina.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
