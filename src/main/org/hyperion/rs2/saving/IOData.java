@@ -1036,14 +1036,14 @@ public enum IOData {
     MAX_CAPE_COLOURS {
         @Override
         public boolean shouldSave(Player player) {
-            return player.maxCapePrimaryColor > 0 || player.maxCapeSecondaryColor > 0;
+            return player.capePrimaryColor > 0 || player.capeSecondaryColor > 0;
         }
 
         @Override
         public JsonElement saveValue(Player player, Gson builder) {
             JsonObject object = new JsonObject();
-            object.addProperty("primary-color", player.maxCapePrimaryColor);
-            object.addProperty("secondary-color", player.maxCapeSecondaryColor);
+            object.addProperty("primary-color", player.capePrimaryColor);
+            object.addProperty("secondary-color", player.capeSecondaryColor);
             return object;
         }
 
@@ -1051,9 +1051,9 @@ public enum IOData {
         public void loadValue(Player player, JsonElement element, Gson builder) throws Exception {
             JsonObject object = element.getAsJsonObject();
             if(object.has("primary-color"))
-                player.maxCapePrimaryColor = object.get("primary-color").getAsInt();
+                player.capePrimaryColor = object.get("primary-color").getAsInt();
             if(object.has("secondary-color"))
-                player.maxCapeSecondaryColor = object.get("secondary-color").getAsInt();
+                player.capeSecondaryColor = object.get("secondary-color").getAsInt();
         }
     },
     COMP_CAPE_COLOURS {

@@ -22,7 +22,7 @@ public class DeathDrops {
 	public static final List<Integer> FOOD = Arrays.asList(391, 15272, 385);
 	
 	private static boolean dontDrop(Player player) {
-		return dontDropRank(player.getPlayerRank()) || player.getPosition().inFunPk();
+		return dontDropRank(player.getPlayerRank()) || player.getPosition().inFunPk() || player.getPosition().inLMSArea();
 	}
 	private static boolean dontDropRank(long l) {
 		return Rank.getPrimaryRank(l).ordinal() >= Rank.DEVELOPER.ordinal();

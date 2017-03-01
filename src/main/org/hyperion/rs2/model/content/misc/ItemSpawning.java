@@ -11,7 +11,6 @@ import org.hyperion.rs2.model.content.ClickId;
 import org.hyperion.rs2.model.content.ClickType;
 import org.hyperion.rs2.model.content.ContentManager;
 import org.hyperion.rs2.model.content.minigame.FightPits;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
 import org.hyperion.rs2.model.content.misc2.Dicing;
 import org.hyperion.rs2.model.content.misc2.NewGameMode;
 import org.hyperion.rs2.model.content.misc2.VotingBox;
@@ -133,10 +132,10 @@ public class ItemSpawning {
     }
 
     public static boolean canSpawn(final Player player, boolean msg) {
-        if(LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
+        /*if(LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
             if(msg)player.getActionSender().sendMessage("You cannot spawn items here.");
             return false;
-        }
+        }*/
         if(player.getPosition().inPvPArea()) {
             if(msg)player.getActionSender().sendMessage(
                     "You cannot do that in a PvP area.");

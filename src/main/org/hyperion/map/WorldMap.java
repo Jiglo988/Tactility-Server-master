@@ -4,6 +4,7 @@ import org.hyperion.Configuration;
 import org.hyperion.Server;
 import org.hyperion.rs2.Constants;
 import org.hyperion.rs2.model.*;
+import org.hyperion.rs2.model.content.DoorManager;
 
 import java.io.*;
 import java.util.*;
@@ -34,6 +35,7 @@ public class WorldMap {
                         loadObjectSizes();
                         loadWorldMap2();
                         loadCustomObjs();
+                        DoorManager.init();
                         sizeX = null;
                         sizeY = null;
                         shootable = null;

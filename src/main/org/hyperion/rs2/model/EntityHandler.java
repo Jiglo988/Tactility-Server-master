@@ -22,7 +22,6 @@ import org.hyperion.rs2.model.content.bounty.BountyHunter;
 import org.hyperion.rs2.model.content.clan.ClanManager;
 import org.hyperion.rs2.model.content.minigame.Bork;
 import org.hyperion.rs2.model.content.minigame.FightPits;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
 import org.hyperion.rs2.model.content.misc2.Edgeville;
 import org.hyperion.rs2.model.itf.InterfaceManager;
 import org.hyperion.rs2.model.itf.impl.PendingRequests;
@@ -37,14 +36,12 @@ import org.hyperion.rs2.saving.PlayerLoading;
 import org.hyperion.rs2.saving.PlayerSaving;
 import org.hyperion.sql.impl.log.Log;
 import org.hyperion.sql.impl.log.LogManager;
-import org.hyperion.util.Misc;
 import org.hyperion.util.Time;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Collections;
 import java.util.Date;
 
 /**
@@ -123,11 +120,6 @@ public class EntityHandler {
                     p.send(player, false);
                 });
             }
-        }
-
-        //TODO REMOVE THIS CHECK
-        if (LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
-            Magic.teleport(player, Edgeville.POSITION, true);
         }
 
         /**
@@ -351,7 +343,7 @@ public class EntityHandler {
         Combat.logoutReset(player.cE);
         player.getDungeoneering().fireOnLogout(player);
         player.setActive(false);
-        LastManStanding.getLastManStanding().leaveGame(player, true);
+        //LastManStanding.getLastManStanding().leaveGame(player, true);
         Bork.doDeath(player);
         World.resetPlayersNpcs(player);
         World.resetSummoningNpcs(player);
@@ -370,9 +362,9 @@ public class EntityHandler {
             player.setPosition(Position.create(3360 + Combat.random(17),
                     3274 + Combat.random(3), 0));
         }
-        if (LastManStanding.getLastManStanding().gameStarted && LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
+        /*if (LastManStanding.getLastManStanding().gameStarted && LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
             LastManStanding.getLastManStanding().leaveGame(player, true);
-        }
+        }*/
         Trade.declineTrade(player);
         FightPits.removePlayerFromGame(player, false);
         BountyHunter.fireLogout(player);

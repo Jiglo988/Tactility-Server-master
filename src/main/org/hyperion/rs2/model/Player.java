@@ -101,8 +101,8 @@ public class Player extends Entity implements Persistable, Cloneable {
 	public int turkeyKills;
 	public int EP = 0;
 	public int blackMarks = 0;
-	public int maxCapePrimaryColor = 0;
-	public int maxCapeSecondaryColor = 0;
+	public int capePrimaryColor = 0;
+	public int capeSecondaryColor = 0;
 	public int compCapePrimaryColor;
 	public int compCapeSecondaryColor;
 	public int tutorialProgress = 0;
@@ -572,7 +572,7 @@ public class Player extends Entity implements Persistable, Cloneable {
 		checkContainers(18509, skills.getRealLevels()[Skills.DUNGEONEERING]== 99, "Dungeoneering cape");
 		checkContainers(19709, skills.getExperience(Skills.DUNGEONEERING) == Skills.MAXIMUM_EXP, "Dungeoneering master cape");
 		checkContainers(12744, checkMaxCapeRequirment(), "Max cape");
-		//checkContainers(12747, checkCompCapeReq(), "Completionist cape");
+		checkContainers(12747, checkCompCapeReq(), "Completionist cape");
 	}
 
 	public void checkSacredClay() {

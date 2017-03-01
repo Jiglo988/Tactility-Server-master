@@ -34,8 +34,10 @@ public class EarnPotentialTask extends Task {
 				if(risk > 50000)
 					risk = 50000;
 				bonus += risk / 5000;
-				if(Misc.random(30 / bonus) == 1) {
-					p.increaseEP();
+				if (bonus != 0) {
+					if (Misc.random(30 / bonus) == 1) {
+						p.increaseEP();
+					}
 				}
 			}
 		}

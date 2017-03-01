@@ -5,7 +5,6 @@ import org.hyperion.rs2.model.Position;
 import org.hyperion.rs2.model.QuestTab;
 import org.hyperion.rs2.model.World;
 import org.hyperion.rs2.model.combat.Magic;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
 
 /**
  * Created by Allen Kinzalow on 4/8/2015.
@@ -72,10 +71,10 @@ public class Events {
             player.getActionSender().sendMessage("There was an error joining this event, try again later.");
             player.getActionSender().sendString("cancel", 32456);
             return;
-        }
-        if(LastManStanding.getLastManStanding().canJoin) {
+        //}
+       /* if(LastManStanding.getLastManStanding().canJoin) {
             LastManStanding.getLastManStanding().enterLobby(player);
-            Magic.teleport(player, LastManStanding.getRandomLocation(), false);
+            Magic.teleport(player, LastManStanding.getRandomLocation(), false);*/
         } else {
             Magic.teleport(player, eventPosition, false);
         }

@@ -106,5 +106,4 @@ public class GameObject {
     public boolean isVisible(Position loc) {
 		return (onAllHeights ? position.distance(loc) < 64 && loc.getZ()%4 == position.getZ()%4 : loc.isWithinDistance(position, 64));
     }
-
 }

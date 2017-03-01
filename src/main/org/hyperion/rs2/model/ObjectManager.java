@@ -9,6 +9,7 @@ import org.hyperion.cache.Cache;
 import org.hyperion.cache.InvalidCacheException;
 import org.hyperion.cache.index.impl.StandardIndex;
 import org.hyperion.cache.obj.ObjectDefinitionParser;
+import org.hyperion.util.ObservableCollection;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,6 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
+import static com.sun.corba.se.spi.activation.IIOP_CLEAR_TEXT.value;
+
 /**
  * Manages all of the in-game objects.
  *
@@ -25,21 +28,47 @@ import java.util.logging.Level;
  */
 public class ObjectManager {
 
-    private static final File FILE = new File("./data/ObjectSpawns.json");
+    private final static String OBJECT_SPAWNS_DIR = "./data/ObjectSpawns.json";
+    private final static ObservableCollection<String> OBJECT_SPAWNS = loadList(OBJECT_SPAWNS_DIR);
     private static List<GameObject> list = new ArrayList<>();
     private static int definitionCount = 0;
     private static int objectCount = 0;
+
+    public static ObservableCollection<String> getObjects() {
+        return OBJECT_SPAWNS;
+    }
 
     public static void addObject(GameObject gameObject) {
         addObject(gameObject, false);
     }
 
     private static void addObject(GameObject gameObject, boolean initializer) {
-        if (!list.contains(gameObject)) {
-            list.add(gameObject);
+        if (!OBJECT_SPAWNS.contains(gameObject)) {
+            getObjects().add(value);
         }
         if (!initializer)
             update(gameObject);
+    }
+
+    private static ObservableCollection<String> loadList(String fileName) {
+        File file = new File(fileName);
+        if (!file.exists()) {
+            saveList(new ObservableCollection<>(new ArrayList<>()), fileName);
+            return new ObservableCollection<>(new ArrayList<>());
+        }
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(OBJECT_SPAWNS_DIR))) {
+            list = new Gson().fromJson(new JsonParser().parse(reader), new TypeToken<List<GameObject>>() {
+            }.getType());
+            reader.close();
+        } catch (IOException ex) {
+            Server.getLogger().log(Level.SEVERE, String.format("Unable to parse Object Spawns."), ex);
+        }
+        return new ObservableCollection<>(new ArrayList<>());
+    }
+
+    private static void saveList(ObservableCollection<Object> objects, String fileName) {
+        saveList(new ObservableCollection<>(new ArrayList<>()), fileName);
     }
 
     public static void init() {
@@ -52,13 +81,6 @@ public class ObjectManager {
             Server.getLogger().log(Level.SEVERE, "The cache could not be found.", e);
         } catch (IOException ex) {
             Server.getLogger().log(Level.SEVERE, "Something went wrong while loading the cache.", ex);
-        }
-        try (BufferedReader reader = new BufferedReader(new FileReader(FILE))) {
-            list = new Gson().fromJson(new JsonParser().parse(reader), new TypeToken<List<GameObject>>() {
-            }.getType());
-            reader.close();
-        } catch (IOException ex) {
-            Server.getLogger().log(Level.SEVERE, String.format("Unable to parse Object Spawns."), ex);
         }
     }
 

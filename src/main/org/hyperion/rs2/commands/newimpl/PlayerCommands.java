@@ -21,7 +21,7 @@ import org.hyperion.rs2.model.content.ContentEntity;
 import org.hyperion.rs2.model.content.bounty.place.BountyHandler;
 import org.hyperion.rs2.model.content.clan.ClanManager;
 import org.hyperion.rs2.model.content.minigame.Bork;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
+import org.hyperion.rs2.model.content.minigame.lastmanstanding.LastManStanding;
 import org.hyperion.rs2.model.content.misc.*;
 import org.hyperion.rs2.model.content.misc2.NewGameMode;
 import org.hyperion.rs2.model.content.skill.dungoneering.DungeoneeringManager;
@@ -82,6 +82,20 @@ public class PlayerCommands implements NewCommandExtension {
                     @Override
                     protected boolean execute(Player player, String[] input) {
                         player.sendMessage("Spirit shard packs are available inside the emblem pt store");
+                        return true;
+                    }
+                },
+                new Command("lms", Time.FIVE_SECONDS) {
+                    @Override
+                    protected boolean execute(Player player, String[] input) {
+                        LastManStanding.getLastManStanding().addToLobby(player);
+                        return true;
+                    }
+                },
+                new Command("exit", Time.FIVE_SECONDS) {
+                    @Override
+                    protected boolean execute(Player player, String[] input) {
+                        LastManStanding.getLastManStanding().exit(player);
                         return true;
                     }
                 },
@@ -221,13 +235,6 @@ public class PlayerCommands implements NewCommandExtension {
                     protected boolean execute(Player player, String[] input) {
                         player.getPermExtraData().put("disableprofile", !player.getPermExtraData().getBoolean("disableprofile"));
                         player.sendf("your public profile is currently %s@bla@.", player.getPermExtraData().getBoolean("disableprofile") ? "@red@unviewable" : "@gre@viewable");
-                        return true;
-                    }
-                },
-                new Command("top10", Time.THIRTY_SECONDS) {
-                    @Override
-                    protected boolean execute(Player player, String[] input) {
-                        LastManStanding.loadTopTenInterface(player);
                         return true;
                     }
                 },

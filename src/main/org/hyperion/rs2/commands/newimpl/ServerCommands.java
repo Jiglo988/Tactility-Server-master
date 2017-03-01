@@ -62,7 +62,7 @@ public class ServerCommands implements NewCommandExtension {
                 new TeleportCommand("kurtplace", Rank.MODERATOR, Position.create(3441, 9737, 1), false),
                 new TeleportCommand("joshplace", Rank.MODERATOR, Position.create(1891, 4523, 2), false),
                 new TeleportCommand("seanplace", Rank.MODERATOR, Position.create(2980, 9871, 72), false),
-                new TeleportCommand("sz", Rank.HELPER, Position.create(2846, 5213, 0), false),
+                new CreatePositionCommand("sz", Rank.HELPER, Position.create(2846, 5213, 0)),
                 new TeleportCommand("sdpvm", Rank.SUPER_DONATOR, Time.FIFTEEN_SECONDS, Position.create(3503, 9493, 4), false),
                 new TeleportCommand("sdp", Rank.SUPER_DONATOR, Time.FIFTEEN_SECONDS, Position.create(2037, 4532, 4), false),
                 new TeleportCommand("helpzone", Rank.PLAYER, Time.FIVE_SECONDS, Position.create(2607, 9672, 0), false),

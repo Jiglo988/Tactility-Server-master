@@ -1016,6 +1016,8 @@ public class Combat {
             if ((combatEntity.getAbsX() >= 2460
                     && combatEntity.getAbsX() <= 2557
                     && combatEntity.getAbsY() >= 3264 && combatEntity.getAbsY() <= 3335)
+                    || //Last man standing
+                    combatEntity.getEntity().getPosition().inLMSArea()
                     || /* fun pk */
                     combatEntity.getEntity().getPosition().inFunPk())// fun
                 // pk
@@ -1029,14 +1031,14 @@ public class Combat {
                     ContentManager.handlePacket(
                             6, combatEntity.getPlayer(), ClickId.ATTACKABLE))
                 return "1";
-            if (LastManStanding.inLMSArea(combatEntity.getAbsX(), combatEntity.getAbsY())) {
+            /*if (LastManStanding.inLMSArea(combatEntity.getAbsX(), combatEntity.getAbsY())) {
                 Participant player = LastManStanding.getLastManStanding().participants.get(combatEntity.getPlayer().getName());
                 Participant opp = LastManStanding.getLastManStanding().participants.get(opponent.getPlayer().getName());
                 if (player == null || opp == null) {
                     return "Something went wrong!";
                 }
                 return "1";
-            }
+            }*/
             //ardy pvp code below.
 			/*if(combatEntity.getEntity().getPosition().inArdyPvPArea() && opponent.getEntity().getPosition().inArdyPvPArea()) {
 				if(Math.abs(cb1 - cb2) <= 6) {
@@ -1158,6 +1160,10 @@ public class Combat {
                 (combatEntity.getAbsX() >= 3071
                         && combatEntity.getAbsX() <= 3146
                         && combatEntity.getAbsY() >= 3394 && combatEntity.getAbsY() <= 3451)
+                || // Last man standing
+                (combatEntity.getAbsX() >= 3205
+                        && combatEntity.getAbsX() <= 3274
+                        && combatEntity.getAbsY() >= 2809 && combatEntity.getAbsY() <= 2752)
                 || // barb
                 (combatEntity.getAbsX() >= 2814
                         && combatEntity.getAbsX() <= 2942
@@ -1175,8 +1181,8 @@ public class Combat {
                 ||
                 (combatEntity.getAbsX() >= 2256 && combatEntity.getAbsY() >= 4680 &&
                         combatEntity.getAbsX() <= 2287 && combatEntity.getAbsY() <= 4711 && combatEntity.getAbsZ() == 0)
-                || inNonSpawnMulti(combatEntity.getAbsX(), combatEntity.getAbsY()) || Position.create(combatEntity.getAbsX(), combatEntity.getAbsY(), 0).inFunPk()
-                || (LastManStanding.inLMSArea(combatEntity.getAbsX(), combatEntity.getAbsY()))
+                || inNonSpawnMulti(combatEntity.getAbsX(), combatEntity.getAbsY()) || Position.create(combatEntity.getAbsX(), combatEntity.getAbsY(), 0).inFunPk() || Position.create(combatEntity.getAbsX(), combatEntity.getAbsY(), 0).inLMSArea()
+                //|| (LastManStanding.inLMSArea(combatEntity.getAbsX(), combatEntity.getAbsY()))
                 || (combatEntity.getAbsZ() > 0 && combatEntity.getAbsX() > 3540 && combatEntity.getAbsX() < 3585 && combatEntity.getAbsY() > 9935 && combatEntity.getAbsY() < 9975))
             return true;
         if (combatEntity.getEntity() instanceof Player) {

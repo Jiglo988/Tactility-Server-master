@@ -933,16 +933,10 @@ public class PlayerUpdateSequence implements UpdateSequence<Player> {
         playerProps.putShort(0); // (skill-level instead of combat-level) otherPlayer.getSkills().getTotalLevel()); // total level
         playerProps.putShort(otherPlayer.getKillCount());
         final int id = eq.getItemId(Equipment.SLOT_CAPE);
-        //commented out until client changes
         if (eq.isSlotUsed(Equipment.SLOT_CAPE) && (id == 12747 || id == 12744)) {
             playerProps.put((byte) 1);
-            if (id == 12747) {
-                playerProps.putInt(otherPlayer.compCapePrimaryColor);
-                playerProps.putInt(otherPlayer.compCapeSecondaryColor);
-            } else {
-                playerProps.putInt(otherPlayer.maxCapePrimaryColor);
-                playerProps.putInt(otherPlayer.maxCapeSecondaryColor);
-            }
+            playerProps.putInt(otherPlayer.capePrimaryColor);
+            playerProps.putInt(otherPlayer.capeSecondaryColor);
         } else {
             playerProps.put((byte) 0);
         }

@@ -72,10 +72,10 @@ public class DoorManager {
 					for(Region reg : RegionManager.getSurroundingRegions(loc)) {
 						for(final Player p : reg.getPlayers()) {
 							if(p.getPosition().distance(door.getOpenLocation()) < 15) {
-                                p.getActionSender().sendDestroyObject(door.getOpenType(), door.getOpenFace(), Position.create(door.getOpenLocation().getX(), door.getOpenLocation().getY(), p.getPosition().getZ()));
+								p.getActionSender().sendDestroyObject(door.getOpenType(), door.getOpenFace(), Position.create(door.getOpenLocation().getX(), door.getOpenLocation().getY(), p.getPosition().getZ()));
 							}
 							if(p.getPosition().distance(door.getClosedLocation()) < 15) {
-                                p.getActionSender().sendCreateObject(door.getClosedId(), door.getClosedType(), door.getClosedFace(), Position.create(door.getClosedLocation().getX(), door.getClosedLocation().getY(), p.getPosition().getZ()));
+								p.getActionSender().sendCreateObject(door.getClosedId(), door.getClosedType(), door.getClosedFace(), Position.create(door.getClosedLocation().getX(), door.getClosedLocation().getY(), p.getPosition().getZ()));
 							}
 						}
 					}
@@ -87,11 +87,11 @@ public class DoorManager {
 				case DOUBLE:
 					for(Region reg : RegionManager.getSurroundingRegions(loc)) {
 						for(final Player p : reg.getPlayers()) {
-							if(p.getPosition().distance(door.getOpenLocation()) < 15) {
+							if(p.getPosition().isWithinDistance(door.getOpenLocation())) {
 								p.getActionSender().sendDestroyObject(door.getOpenType(), door.getOpenFace(), Position.create(door.getOpenLocation().getX(), door.getOpenLocation().getY(), p.getPosition().getZ()));
 								p.getActionSender().sendDestroyObject(door.getSecondaryOpenType(), door.getSecondaryOpenFace(), Position.create(door.getSecondOpenLocation().getX(), door.getSecondOpenLocation().getY(), p.getPosition().getZ()));
 							}
-							if(p.getPosition().distance(door.getClosedLocation()) < 15) {
+							if(p.getPosition().isWithinDistance(door.getClosedLocation())) {
 								p.getActionSender().sendCreateObject(door.getClosedId(), door.getClosedType(), door.getClosedFace(), Position.create(door.getClosedLocation().getX(), door.getClosedLocation().getY(), p.getPosition().getZ()));
 								p.getActionSender().sendCreateObject(door.getSecondaryClosedId(), door.getSecondaryClosedType(), door.getSecondaryClosedFace(), Position.create(door.getSecondClosedLocation().getX(), door.getSecondClosedLocation().getY(), p.getPosition().getZ()));
 							}
@@ -164,14 +164,14 @@ public class DoorManager {
 				case DOUBLE:
 					for(Region reg : RegionManager.getSurroundingRegions(loc)) {
 						for(final Player p : reg.getPlayers()) {
-                            if(p.getPosition().distance(door.getOpenLocation()) < 15) {
-                                p.getActionSender().sendCreateObject(door.getClosedId(), door.getClosedType(), door.getClosedFace(), Position.create(door.getClosedLocation().getX(), door.getClosedLocation().getY(), player.getPosition().getZ()));
-                                p.getActionSender().sendCreateObject(door.getSecondaryClosedId(), door.getSecondaryClosedType(), door.getSecondaryClosedFace(), Position.create(door.getSecondClosedLocation().getX(), door.getSecondClosedLocation().getY(), player.getPosition().getZ()));
-                            }
-                            if(p.getPosition().distance(door.getClosedLocation()) < 15) {
-                                p.getActionSender().sendDestroyObject(door.getOpenType(), door.getOpenFace(), Position.create(door.getOpenLocation().getX(), door.getOpenLocation().getY(), player.getPosition().getZ()));
-                                p.getActionSender().sendDestroyObject(door.getSecondaryOpenType(), door.getSecondaryOpenFace(), Position.create(door.getSecondOpenLocation().getX(), door.getSecondOpenLocation().getY(), player.getPosition().getZ()));
-                            }
+							if(p.getPosition().distance(door.getOpenLocation()) < 15) {
+								p.getActionSender().sendCreateObject(door.getClosedId(), door.getClosedType(), door.getClosedFace(), Position.create(door.getClosedLocation().getX(), door.getClosedLocation().getY(), player.getPosition().getZ()));
+								p.getActionSender().sendCreateObject(door.getSecondaryClosedId(), door.getSecondaryClosedType(), door.getSecondaryClosedFace(), Position.create(door.getSecondClosedLocation().getX(), door.getSecondClosedLocation().getY(), player.getPosition().getZ()));
+							}
+							if(p.getPosition().distance(door.getClosedLocation()) < 15) {
+								p.getActionSender().sendDestroyObject(door.getOpenType(), door.getOpenFace(), Position.create(door.getOpenLocation().getX(), door.getOpenLocation().getY(), player.getPosition().getZ()));
+								p.getActionSender().sendDestroyObject(door.getSecondaryOpenType(), door.getSecondaryOpenFace(), Position.create(door.getSecondOpenLocation().getX(), door.getSecondOpenLocation().getY(), player.getPosition().getZ()));
+							}
 						}
 					}
 					door.redoOpenState();
@@ -380,14 +380,14 @@ public class DoorManager {
 				return - 1;
 		}
 	}
-	
+
 	/*public static void handleConstructionDoor(Player player, ConstructionObject obj, Room room, Location location, int id) {
 		int openDoor = getOpenDoor(id);
 		int closedDoor = getClosedDoor(id);
 		boolean open = id == openDoor;
 		if(openDoor != -1 && closedDoor != -1) {
 			//Location loc = null;
-			int rotation = -1;		
+			int rotation = -1;
 			//north
 			System.out.println("Locations: " + location + " " + room.getY() + " " + room.getX());
 			if(location.getY() == room.getY() + 7) {

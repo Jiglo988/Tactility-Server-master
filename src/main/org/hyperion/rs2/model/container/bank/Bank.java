@@ -4,7 +4,6 @@ import org.hyperion.rs2.model.*;
 import org.hyperion.rs2.model.container.Container;
 import org.hyperion.rs2.model.container.impl.InterfaceContainerListener;
 import org.hyperion.rs2.model.content.minigame.FightPits;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
 import org.hyperion.rs2.model.content.misc.ItemSpawning;
 
 import java.util.Arrays;
@@ -86,9 +85,9 @@ public class Bank {
      */
     public static void withdraw(Player player, int id, int amount) {
         if(!Rank.hasAbility(player, Rank.DEVELOPER)) {
-            if(!LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
+            /*if(!LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
                 if (player.getPosition().inPvPArea())
-                    return;
+                    return;*/
                 if (Position.inAttackableArea(player))
                     return;
                 if (FightPits.inPits(player))
@@ -98,7 +97,7 @@ public class Bank {
                 }
                 if (!ItemSpawning.canSpawn(player)) {
                     return;
-                }
+                //}
             } else if(player.getExtraData().getLong("combatimmunity") < System.currentTimeMillis()) {
                 player.getActionSender().sendMessage("You can only open the bank while you are invincible.");
                 player.getActionSender().sendMessage("You are invincible after you die for 20 seconds, unless you attack someone.");
@@ -182,9 +181,9 @@ public class Bank {
 
     public static void deposit(Player player, int slot, int id, int amount, Container container, boolean inventory, boolean refresh) {
         if(!Rank.hasAbility(player, Rank.DEVELOPER)) {
-            if(!LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
+           /* if(!LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY())) {
                 if (player.getPosition().inPvPArea())
-                    return;
+                    return;*/
                 if (slot < 0 || slot > container.capacity() || id < 0 || id > ItemDefinition.MAX_ID)
                     return;
                 if (Position.inAttackableArea(player))
@@ -193,11 +192,11 @@ public class Bank {
                     return;
                 if (!player.getBankField().isBanking()) {
                     return;
-                }
+               }
 
                 if (!ItemSpawning.canSpawn(player)) {
                     return;
-                }
+                //}
             } else if(player.getExtraData().getLong("combatimmunity") < System.currentTimeMillis()) {
                 player.getActionSender().sendMessage("You can only open the bank while you are invincible.");
                 player.getActionSender().sendMessage("You are invincible after you die for 20 seconds, unless you attack someone.");

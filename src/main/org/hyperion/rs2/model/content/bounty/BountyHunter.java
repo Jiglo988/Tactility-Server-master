@@ -5,7 +5,6 @@ import org.hyperion.rs2.model.combat.Combat;
 import org.hyperion.rs2.model.container.Container;
 import org.hyperion.rs2.model.container.bank.BankItem;
 import org.hyperion.rs2.model.content.Lock;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
 
 import java.util.List;
 import java.util.Map;
@@ -149,7 +148,7 @@ public class BountyHunter {
     public static boolean applicable2(Player player) {
         if(player == null)
             return false;
-        return player.getPosition().inPvPArea() && !player.getPosition().inFunPk() && !LastManStanding.inLMSArea(player.cE.getAbsX(), player.cE.getAbsY()) && !Lock.isEnabled(player, Lock.BOUNTY_HUNTER) && !BountyHunterLogout.isBlocked(player);
+        return player.getPosition().inPvPArea() && !player.getPosition().inFunPk() && !player.getPosition().inLMSArea() && !Lock.isEnabled(player, Lock.BOUNTY_HUNTER) && !BountyHunterLogout.isBlocked(player);
     }
 	
 	public static void fireLogout(final Player player) {

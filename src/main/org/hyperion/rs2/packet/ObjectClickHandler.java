@@ -45,7 +45,7 @@ public class ObjectClickHandler {
         if (id > GameObjectDefinition.MAX_DEFINITIONS || id < 0)
             return;
         Position loc = Position.create(x, y, player.getPosition().getZ());
-        if (DoorManager.handleDoor(player, loc, id))
+        if(DoorManager.handleDoor(player,loc,id))
             return;
 
         if (loaded && !objectExist(id, x, y, player.getPosition().getZ()) && !slipObject(id)) {

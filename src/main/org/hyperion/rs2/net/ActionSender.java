@@ -12,8 +12,6 @@ import org.hyperion.rs2.model.combat.Combat;
 import org.hyperion.rs2.model.combat.CombatAssistant;
 import org.hyperion.rs2.model.container.Equipment;
 import org.hyperion.rs2.model.content.clan.ClanManager;
-import org.hyperion.rs2.model.content.minigame.LastManStanding;
-import org.hyperion.rs2.model.content.minigame.Participant;
 import org.hyperion.rs2.model.itf.InterfaceManager;
 import org.hyperion.rs2.model.itf.impl.ItemContainer;
 import org.hyperion.rs2.model.joshyachievementsv2.tracker.AchievementTracker;
@@ -144,7 +142,7 @@ public class ActionSender {
         return this;
     }
 
-    public ActionSender sendLastManStandingStatus(boolean status) {
+   /*public ActionSender sendLastManStandingStatus(boolean status) {
         if (status) {
             Participant p = LastManStanding.getLastManStanding().participants.get(player.getName());
             if (p == null)
@@ -160,7 +158,7 @@ public class ActionSender {
             player.write(new PacketBuilder(208).putLEShort(-1).toPacket());
             return this;
         }
-    }
+    }*/
 
     public ActionSender showItemInterface(final int width, final int height, final Item... items) {
         return showItemInterface("Items", width, height, items);

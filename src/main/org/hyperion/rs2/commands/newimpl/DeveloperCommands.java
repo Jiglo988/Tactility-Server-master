@@ -3,7 +3,6 @@ package org.hyperion.rs2.commands.newimpl;
 
 import org.hyperion.Server;
 import org.hyperion.engine.task.Task;
-import org.hyperion.engine.task.TaskManager;
 import org.hyperion.engine.task.impl.NpcDeathTask;
 import org.hyperion.engine.task.impl.WildernessBossTask;
 import org.hyperion.rs2.Constants;
